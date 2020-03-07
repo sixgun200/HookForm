@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import RegisterForm from './components/RegisterForm';
+import RegisterForm2 from './components/RegisterForm2';
 
 function App() {
   return (
     <div className="App">
-      <RegisterForm firstName={""} lastName={""} email={""} password={""} confirmPassword={""}></RegisterForm>
+      <RegisterForm2 firstName={""} fnError={""} lastName={""} lnError={""} email={""} emError={""} password={""} pwError={""} confirmPassword={""} cpError={""}></RegisterForm2>
     </div>
   );
 }
